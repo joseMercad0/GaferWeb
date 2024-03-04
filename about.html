@@ -16,7 +16,7 @@
   <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="shortcut icon" href="./favicon.png" type="image/svg+xml">
 
   <!-- 
     - custom css link
@@ -31,7 +31,7 @@
   <!-- 
     - preload images
   -->
-  <link rel="preload" as="image" href="./assets/images/loading.svg">
+  <link rel="preload" as="image" href="./assets/images/loading.jpg">
   <link rel="preload" as="image" href="./assets/images/loading-circle.svg">
   <link rel="preload" as="image" href="./assets/images/hero-banner.png">
 
@@ -44,7 +44,7 @@
   -->
 
   <div class=" preload-box" data-preloader>
-    <img src="./assets/images/loading.svg" width="45" height="45" alt="loading">
+    <img src="./assets/images/loading.jpg" width="45" height="45" alt="loading">
 
     <img src="./assets/images/loading-circle.svg" width="75" height="75" alt="loading" class="preload-circle">
   </div>
@@ -61,7 +61,7 @@
     <div class="container">
 
       <a href="index.html" class="logo">
-        <img src="./assets/images/logo.svg" width="160" height="50" alt="volti home">
+        <img src="./assets/images/logo.png" width="160" height="50" alt="volti home">
       </a>
 
       <nav class="navbar" data-navbar>
@@ -73,10 +73,6 @@
 
           <li class="navbar-item">
             <a href="experiencia.html" class="navbar-link">Experiencia</a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="about.html" class="navbar-link">Nosotros</a>
           </li>
 
           <li class="navbar-item">
@@ -122,91 +118,97 @@
     <article>
 
 
-      
+      <section class="section service" aria-labelledby="service-label">
+        <div class="container">
+          <p class="section-subtitle has-before" id="service-label" data-reveal>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 
+          <h2 class="h2 section-title" data-reveal> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        
+          </h2>
+        </div>
 
-      
-      <!-- 
-        - #ABOUT
-      -->
-
-      <section class="section about" aria-labelledby="about-label">
         <div class="container">
 
-          <figure class="about-banner" data-reveal="left">
-            <img src="./assets/images/about-banner-1.jpg" width="380" height="382" loading="lazy" alt="about banner"
-              class="w-100 img-1">
+          <p class="section-subtitle has-before" id="service-label" data-reveal>¿Quienes Somos?</p>
 
-            <img src="./assets/images/about-banner-2.jpg" width="347" height="349" loading="lazy" alt="about banner"
-              class="w-100 img-2">
-          </figure>
+          <h2 class="h2 section-title" data-reveal>
+            NOSOTROS
+          </h2>
 
-          <div class="about-content" data-reveal="right">
+          <div class="about-wrapper">
 
-            <p class="section-subtitle has-before" id="about-label">What We Do!</p>
+            <figure class="about-banner" data-reveal="right">
+              <img src="./assets/images/about-banner-1.jpg" width="380" height="382" loading="lazy" alt="about banner"
+                class="w-100 img-1">
+  
+              <img src="./assets/images/about-banner-2.jpg" width="347" height="349" loading="lazy" alt="about banner"
+                class="w-100 img-2">
+            </figure>
 
-            <h2 class="h2 section-title">
-              Our mission is to put an electric vehicle charge
-            </h2>
 
-            <p class="section-text">
-              Charge your electric vehicle at home using one of our smart home char ge solutions or gain access to over
-              3,000 public charging.
-            </p>
+            <div class="about-content" data-reveal="left">
 
-            <div class="about-wrapper">
+             
+  
+              <h2 class="h2 section-title">
+                GAFER Saneamiento Ambiental
+              </h2>
+  
+              <p class="section-text">
+                Somos una empresa de servicios, dedicada al Manejo Integral de Plagas (MIP) y desinfección de ambientes, que utiliza las mejores técnicas en saneamiento ambiental, cuya finalidad es proporcionar a nuestros clientes un ambiente adecuado para su salud y bienestar en toda la región Arequipa.
+              </p>
 
-              <div class="about-card">
+              <div class="about-wrapper">
 
-                <div class="title-wrapper">
-                  <ion-icon name="bonfire-outline" aria-hidden="true"></ion-icon>
-
-                  <h3 class="card-title">Zero contact travel</h3>
+                <div class="about-card">
+  
+                  <div class="title-wrapper">
+                    <ion-icon name="bonfire-outline" aria-hidden="true"></ion-icon>
+  
+                    <h3 class="card-title">Misión</h3>
+                  </div>
+  
+                  <p class="card-text">
+                    We love our customers and we love the way they come.
+                  </p>
+  
                 </div>
-
-                <p class="card-text">
-                  We love our customers and we love the way they come.
-                </p>
-
-              </div>
-
-              <div class="about-card">
-
-                <div class="title-wrapper">
-                  <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
-
-                  <h3 class="card-title">No Driving License</h3>
+  
+                <div class="about-card">
+  
+                  <div class="title-wrapper">
+                    <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+  
+                    <h3 class="card-title">Visión</h3>
+                  </div>
+  
+                  <p class="card-text">
+                    We love our customers and we love the way they come.
+                  </p>
+  
                 </div>
-
-                <p class="card-text">
-                  We love our customers and we love the way they come.
-                </p>
-
+  
               </div>
-
+  
+              <ul class="about-list">
+  
+                <li class="about-item">
+                  <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+  
+                  <span class="span">Detachable battery, take home and charge in 3 hours.</span>
+                </li>
+  
+                <li class="about-item">
+                  <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+  
+                  <span class="span">Enjoy a hassle-free ride by charging just for 3 hours.</span>
+                </li>
+  
+              </ul>
+  
+                
+              </a>
+  
             </div>
-
-            <ul class="about-list">
-
-              <li class="about-item">
-                <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
-
-                <span class="span">Detachable battery, take home and charge in 3 hours.</span>
-              </li>
-
-              <li class="about-item">
-                <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
-
-                <span class="span">Enjoy a hassle-free ride by charging just for 3 hours.</span>
-              </li>
-
-            </ul>
-
-            <a href="#" class="btn btn-primary">
-              <span class="span">Read More</span>
-
-              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-            </a>
 
           </div>
 
@@ -340,11 +342,6 @@
             </a>
           </li>
 
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter" aria-hidden="true"></ion-icon>
-            </a>
-          </li>
 
           <li>
             <a href="#" class="social-link">
@@ -354,7 +351,7 @@
 
           <li>
             <a href="#" class="social-link">
-              <ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon>
+              <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
             </a>
           </li>
 
