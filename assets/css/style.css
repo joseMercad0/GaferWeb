@@ -90,6 +90,137 @@
 
 
 
+/*-----------------------------------*\
+  #CIRCLE
+\*-----------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+.body-content{
+  margin: 0;
+  padding: -20px;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  
+  
+}
+
+.card-circle{
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.3);
+  background: linear-gradient(45deg, #418836, #9bdd5e);
+}
+.card-circle:hover{
+  height: 570px;
+  width: 350px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 35px 0px rgba(0,0,0,0.3);
+}
+.card-circle .rapper img{
+  position: relative;
+  z-index: 20;
+  border-radius: 50%;
+  display: block;
+  height: 200px;
+  width: 200px;
+  border: 5px solid #fff;
+  object-fit: cover;
+  margin: 20px auto;
+  transition: all 0.3s ease;
+}
+.card-circle:hover .rapper img.active{
+  height: 470px;
+  width: 350px;
+  margin: 0px auto;
+  border: none;
+  border-radius: 5px;
+}
+.rapper .title{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  padding: 10px;
+  line-height: 25px;
+}
+.rapper .place{
+  color: #fff;
+  font-size: 17px;
+  line-height: 0px;
+  margin: 10px 0;
+}
+.card-circle{
+  color: #fff;
+  font-size: 17px;
+  margin-top: 10px;
+  padding: 1px 20px 10px 20px!important;
+}
+.card-circle .buttons{
+  display: flex;
+}
+.buttons .btn{
+  height: 40px;
+  width: 150px;
+  margin: 0 5px;
+}
+.buttons .btn button{
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+.btn button:hover{
+  transform: scale(0.95);
+}
+.card-circle .icons{
+  position: relative;
+  margin-top: -435px;
+  margin-left: 10px;
+  list-style: none;
+}
+.card-circle .icons.active{
+  display: none;
+}
+.card-circle .icons li{
+  height: 40px;
+  width: 40px;
+  margin: 5px 0;
+  opacity: 0;
+  margin-left: -100px;
+  transition: all 0.5s ease;
+}
+.card-circle:hover .icons li{
+  opacity: 1;
+  margin-left: 7px;
+}
+.card-circle:hover .icons li:nth-child(2){
+  transition-delay: 0.2s;
+}
+.card-circle:hover .icons li:nth-child(3){
+  transition-delay: 0.4s;
+}
+.card-circle .icons li a{
+  color: #63ba34;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background: #fff;
+  display: block;
+  line-height: 40px;
+  transition: all 0.3s;
+}
+.card-circle .icons li a:hover{
+  transform: scale(0.9);
+}
 
 
 /*-----------------------------------*\
@@ -981,7 +1112,16 @@ body {
 
   .btn-secondary { padding-inline: 70px; }
 
-
+  /**
+   * CIRCLE
+   */
+   .card-circle:hover{
+    height: 570px;
+    width: 550px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 35px 0px rgba(0,0,0,0.3);
+  }
+ 
 
   /**
    * HERO
@@ -1063,6 +1203,12 @@ body {
   }
 
 
+
+   
+
+  .rapper .title {
+    font-size: 35px;
+  }
 
 
 
@@ -1235,6 +1381,8 @@ body {
 
   }
 
+   
+
 
 
   /**
@@ -1355,6 +1503,7 @@ body {
     --fs-3: 4rem;
 
   }
+
 
 
 
@@ -1493,7 +1642,7 @@ body {
 
   .header .contact-number ion-icon { font-size: 3rem; }
 
-
+  
 
   /**
    * HERO
