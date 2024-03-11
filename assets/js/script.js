@@ -69,3 +69,20 @@ const img = document.querySelector("img");
       this.classList.toggle("active");
       icons.classList.toggle("active");
     }
+
+ /**
+  * Play video
+  */
+ document.querySelector('.play-btn').addEventListener('click', function() {
+    var videoElement = document.querySelector('.video-element');
+    var imgElement = document.querySelector('.img-cover');
+    var playBtn = document.querySelector('.play-btn');
+
+    // Ocultar imagen, botón y mostrar video
+    imgElement.style.display = 'none';
+    playBtn.style.display = 'none';
+    videoElement.style.display = 'block';
+    
+    // Reproducir video
+    videoElement.play();
+});
