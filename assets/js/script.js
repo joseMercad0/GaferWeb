@@ -39,6 +39,9 @@ window.addEventListener("scroll", function() {
 });
 
 
+
+
+
 /**
  *  #SCROLL REVEALED
  */

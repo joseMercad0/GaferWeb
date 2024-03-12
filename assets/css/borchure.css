@@ -19,6 +19,24 @@ img {
     max-height: 100%;
 }
 
+/* Estilos para el botón de descarga de PDF */
+#download-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #3bd369;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#download-btn:hover {
+    background-color: #17621a;
+}
+
 /* Book */
 .book {
     position: relative;
