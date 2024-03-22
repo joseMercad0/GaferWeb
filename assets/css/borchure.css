@@ -40,8 +40,8 @@ img {
 /* Book */
 .book {
     position: relative;
-    width: 350px;
-    height: 500px;
+    width: 450px;
+    height: 600px;
     transition: transform 0.5s;
 }
 
@@ -68,13 +68,13 @@ img {
 }
 
 .front {
-    z-index: 1;
+    z-index: 3;
     backface-visibility: hidden;
     border-left: 3px solid powderblue;
 }
 
 .back {
-    z-index: 0;
+    z-index: -2;
 }
 
 .front-content,
