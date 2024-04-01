@@ -667,10 +667,6 @@ article p {
 
 
 
-/*-----------------------------------*\
-  #HEADER
-\*-----------------------------------*/
-
 .header-action { display: none; }
 
 .header {
@@ -781,8 +777,6 @@ article p {
 
 
 
-
-
 /*-----------------------------------*\
   #ABOUT
 \*-----------------------------------*/
@@ -796,16 +790,7 @@ article p {
 
 .about-banner .img-2 { border-bottom-right-radius: var(--radius-50); }
 
-.about-content .img-1 { border-top-left-radius: var(--radius-50); border-bottom-right-radius: var(--radius-50);} 
-
-.about-content .img-2 { border-top-left-radius: var(--radius-50); border-bottom-right-radius: var(--radius-50);}
-
-
-
-
-
 .about .section-title { margin-block: 10px 25px; }
-
 
 .about-wrapper {
   margin-block: 35px 25px;
@@ -1080,6 +1065,7 @@ article p {
 }
 
 .blog-card .card-title:is(:hover, :focus-visible) { color: var(--yellow-green); }
+
 
 
 
@@ -1387,11 +1373,11 @@ article p {
 .back-top-btn {
   position: fixed;
   bottom: 10px;
-  right: 90px;
+  right: 20px;
   background-color: var(--yellow-green);
   color: var(--white);
   font-size: 2rem;
-  padding: 20px;
+  padding: 10px;
   border-radius: var(--radius-circle);
   border: 3px solid var(--white);
   opacity: 0;
@@ -1402,6 +1388,7 @@ article p {
   opacity: 1;
   transform: translateY(-10px);
 }
+
 
 
 

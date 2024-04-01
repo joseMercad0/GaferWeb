@@ -3,6 +3,198 @@ Volti - Book Your Eco-Friendly Ride
 This is a vahicle charging html template made by codewithsadee
 
 
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <div class="elfsight-app-bba5142a-1b3b-4d2e-bd4d-f3fbf6de2e47" data-elfsight-app-lazy></div>
+
+
+          <li class="navbar-item">
+            <a href="services.html" class="navbar-link">Servicios</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="experiencia.html" class="navbar-link">Experiencia</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="about.html" class="navbar-link">Nosotros</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="customers.html" class="navbar-link">Clientes</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="blog.html" class="navbar-link">Blog</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#contact-section" class="navbar-link">Contacto</a>
+          </li>
+
+
+////////////////////////////////////
+
+<footer class="footer">
+    <div class="container">
+
+      <div class="footer-top section" data-reveal>
+
+        <div class="newsletter-card">
+
+          <div class="card-icon">
+            <ion-icon name="mail-unread-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <h3 class="h3 card-title">Ingresa tu correo para contactarnos</h3>
+
+          <form action="#" class="newsletter-form">
+
+            <label for="email" class="label">Incribete mediante correo</label>
+
+            <input type="emal" name="email" id="email" placeholder="Email address" required class="email-field">
+
+            <button type="submit" class="btn btn-primary">Subscribirse</button>
+
+          </form>
+
+        </div>
+
+        <div class="footer-list">
+
+          <p class="h6 has-after">GAFER Saneamiento Ambiental</p>
+
+          <p class="footer-text">
+            GAFER es una empresa dedicada a brindar servicios de Saneamiento Ambiental en la Región Arequipa, cumpliendo con altos estándares de calidad y seguridad.
+          </p>
+
+          <a href="#" class="btn-outline">
+            <span class="span">Get a quote</span>
+
+            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h6 has-after">Informacion</p>
+          </li>
+
+          <li>
+            <a href="about.html" class="footer-link">Nosotros</a>
+          </li>
+
+          
+          <li>
+            <a href="borchure.html" class="footer-link">Borchure</a>
+          </li>
+
+          
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h6 has-after">Quick Contact</p>
+          </li>
+
+          <li>
+            <address class="footer-text">
+              P.º los Alamos 303, Cerro Colorado 04001
+            </address>
+          </li>
+
+          <li>
+            <p class="footer-text">
+              Si tiene dudas puede contactarnos
+            </p>
+          </li>
+
+          <li>
+            <a href="tel:51959362958" class="contact-link">+51 959 362 958</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h6 has-after">AUTORIZADOS POR:</p>
+          </li>
+
+          <li>
+            <p class="footer-text">
+              <img src="./assets/images/salud.png" alt="">
+            </p>
+          </li>
+
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h6 has-after">ASOCIADOS A:</p>
+          </li>
+
+          <li>
+            <p class="footer-text">
+              <img src="./assets/images/comercio.jpg" alt="">
+            </p>
+          </li>
+
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <div>
+          <ul class="footer-bottom-list">
+
+            <li>
+              <a href="https://maps.app.goo.gl/xrSVpEa3SyPJqbvo7" class="footer-bottom-link">Ubicacion</a>
+            </li>
+
+            
+          </ul>
+
+          <p class="copyright">Made with @codewithsadee</p>
+        </div>
+
+        <img src="./assets/images/footer-logo.png" width="100" height="63" loading="lazy" alt="Volti home">
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+  </footer>
+
 
 #---------- HEADER ----------#
 
