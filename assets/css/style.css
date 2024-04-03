@@ -298,7 +298,7 @@ body {
   background-color: var(--white);
   color: var(--black-coral);
   font-size: 1.6rem;
-  line-height: 1.7;
+  line-height: 1.6;
   overflow-x: hidden;
 }
 
@@ -783,7 +783,7 @@ article p {
 
 .about .container {
   display: grid;
-  gap: 40px;
+  gap: 30px;
 }
 
 .about-banner .img-1 { border-top-left-radius: var(--radius-50); }
