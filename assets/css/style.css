@@ -757,7 +757,7 @@ article p {
 .hero-title {
   color: var(--white);
   text-align: center;
-  line-height: 1.4;
+  line-height: 3.5;
   margin-block-end: 30px;
 }
 
