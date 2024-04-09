@@ -113,7 +113,7 @@ const img = document.querySelector("img");
     // Envía el formulario por correo electrónico usando EmailJS
     var templateParams = {
       from_name: nombre,
-      to_name: 'Tu Nombre',
+      to_name: 'Gafer',
       message: 'Teléfono: ' + telefono + '\nCorreo electrónico: ' + email + '\nNombre del problema: ' + problema + '\nDescripción del problema: ' + descripcion + '\nTipo de servicio: ' + tipoServicio
     };
 
