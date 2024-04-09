@@ -89,3 +89,40 @@ const img = document.querySelector("img");
     // Reproducir video
     videoElement.play();
 });
+
+/**
+ *  #SEND FORM
+ * 
+ */
+
+(function() {
+    emailjs.init("52FI6TDsxQ1JZED1Q"); // Reemplaza "YOUR_USER_ID" con tu ID de usuario de EmailJS
+  })();
+
+  document.getElementById('problemaForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Evita que se envíe el formulario
+    
+    // Captura los datos del formulario
+    var nombre = document.getElementById('name').value;
+    var telefono = document.getElementById('telefono').value;
+    var email = document.getElementById('email').value;
+    var problema = document.getElementById('problema').value;
+    var descripcion = document.getElementById('descripcion').value;
+    var tipoServicio = document.getElementById('tipoServicio').value;
+    
+    // Envía el formulario por correo electrónico usando EmailJS
+    var templateParams = {
+      from_name: nombre,
+      to_name: 'Tu Nombre',
+      message: 'Teléfono: ' + telefono + '\nCorreo electrónico: ' + email + '\nNombre del problema: ' + problema + '\nDescripción del problema: ' + descripcion + '\nTipo de servicio: ' + tipoServicio
+    };
+
+    emailjs.send('service_muh5sae', 'template_khg4rlg', templateParams)
+      .then(function(response) {
+        console.log('Correo enviado con éxito', response);
+        alert('¡Tu formulario ha sido enviado con éxito!');
+      }, function(error) {
+        console.log('Error al enviar el correo', error);
+        alert('¡Hubo un problema al enviar tu formulario! Por favor, inténtalo de nuevo más tarde.');
+      });
+  });

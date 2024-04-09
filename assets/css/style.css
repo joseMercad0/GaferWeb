@@ -282,6 +282,10 @@ button {
 
 input { width: 100%; }
 
+textarea { width: 100%; }
+
+select { width: 100%; }
+
 button { cursor: pointer; }
 
 ion-icon { pointer-events: none; }

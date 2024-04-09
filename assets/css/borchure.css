@@ -23,7 +23,7 @@ img {
 #download-btn {
     position: fixed;
     bottom: 20px;
-    left: 50%;
+    left: 60%;
     transform: translateX(-50%);
     background-color: #3bd369;
     color: #fff;
@@ -35,6 +35,24 @@ img {
 
 #download-btn:hover {
     background-color: #17621a;
+}
+
+/* Estilos para el botón de regreso */
+#return-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 40%;
+    transform: translateX(-50%);
+    background-color: #72dcda;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#return-btn:hover {
+    background-color: #317e96;
 }
 
 /* Book */
