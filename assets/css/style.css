@@ -324,6 +324,12 @@ body {
   #REUSED STYLE
 \*-----------------------------------*/
 
+.normativa {
+  color: rgb(56, 185, 36);
+  text-decoration: underline; 
+  cursor: pointer;
+}
+
 .container { padding-inline: 16px; }
 
 
