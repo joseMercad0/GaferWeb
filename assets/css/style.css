@@ -800,6 +800,10 @@ article p {
 
 .about-banner .img-2 { border-bottom-right-radius: var(--radius-50); }
 
+.about-content .img-1 {border-top-left-radius: var(--radius-60);border-bottom-right-radius: var(--radius-60);}
+
+.about-content .img-2 {border-top-right-radius: var(--radius-60); border-bottom-left-radius: var(--radius-60);}
+
 .about .section-title { margin-block: 10px 25px; }
 
 .about-wrapper {
