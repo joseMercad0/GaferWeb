@@ -76,11 +76,11 @@ function goPrevPage() {
     if(currentLocation > 1) {
         switch(currentLocation) {
             case 1:
-                closeBook(true);
+                closeBook(true);                
                 paper1.classList.remove("flipped");
                 paper1.style.zIndex = 6;
                 break;
-            case 2:                
+            case 2:                               
                 paper2.classList.remove("flipped");
                 paper2.style.zIndex = 5;
                 break;
