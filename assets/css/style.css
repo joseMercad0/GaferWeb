@@ -134,10 +134,10 @@
   border-radius: 50%;
   transition: all 0.3s ease-in-out;
   box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.3);
-  background: linear-gradient(45deg, #418836, #9bdd5e);
+  background: linear-gradient(45deg, #58ae4b, #9bdd5e);
 }
 .card-circle:hover{
-  height: 870px;
+  height: 970px;
   width: 350px;
   border-radius: 5px;
   box-shadow: 0px 1px 35px 0px rgba(0,0,0,0.3);
@@ -1445,7 +1445,7 @@ article p {
    * CIRCLE
    */
    .card-circle:hover{
-    height: 870px;
+    height: 970px;
     width: 550px;
     border-radius: 5px;
     box-shadow: 0px 1px 35px 0px rgba(0,0,0,0.3);
