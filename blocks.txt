@@ -43,3 +43,10 @@
     border-radius: 5px;
     box-shadow: 0px 1px 35px 0px rgba(0,0,0,0.3);
   }
+
+  facebook#########
+
+  <div id="fb-root" >
+              <div class="fb-page" data-href="https://www.facebook.com/gafercontroldeplagas" data-tabs="" data-width="550" data-height="750" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/gafercontroldeplagas" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/gafercontroldeplagas">GAFER Saneamiento Ambiental</a></blockquote></div>
+            </div>
+            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v19.0&appId=937038827632981" nonce="CqSFLfbD"></script>

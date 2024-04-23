@@ -88,6 +88,79 @@
 
 }
 
+/*-----------------------------------*\
+  #CUSTOM ICONS
+\*-----------------------------------*/
+.rat-icon {
+  width: 34px; /* Ajusta el ancho según sea necesario */
+  height: 34px; /* Ajusta la altura según sea necesario */
+  background-image: url('/assets/images/customs-icons/rat.svg');
+  background-size: cover;
+}
+
+.reserve-icon {
+  width: 34px; /* Ajusta el ancho según sea necesario */
+  height: 34px; /* Ajusta la altura según sea necesario */
+  background-image: url('/assets/images/customs-icons/reservoir.svg');
+  background-size: cover;
+}
+
+.no-bug-icon {
+  width: 54px; /* Ajusta el ancho según sea necesario */
+  height: 54px; /* Ajusta la altura según sea necesario */
+  background-image: url('/assets/images/customs-icons/no-bug.svg');
+  background-size: cover;
+}
+
+.clean-room-icon {
+  width: 54px; /* Ajusta el ancho según sea necesario */
+  height: 54px; /* Ajusta la altura según sea necesario */
+  background-image: url('/assets/images/customs-icons/clean-room.svg');
+  background-size: cover;
+}
+.pigeon-icon {
+  width: 34px; /* Ajusta el ancho según sea necesario */
+  height: 34px; /* Ajusta la altura según sea necesario */
+  background-image: url('/assets/images/customs-icons/pigeon.svg');
+  background-size: cover;
+}
+.fumigation-icon{
+  width: 44px; /* Ajusta el ancho según sea necesario */
+  height: 44px; /* Ajusta la altura según sea necesario */
+  background-image: url('/assets/images/customs-icons/fumigation.svg');
+  background-size: cover;
+}
+
+.fog-icon{
+  width: 44px; /* Ajusta el ancho según sea necesario */
+  height: 44px; /* Ajusta la altura según sea necesario */
+  background-image: url('/assets/images/customs-icons/fog.svg');
+  background-size: cover;
+}
+
+.pesticide{
+  width: 44px; /* Ajusta el ancho según sea necesario */
+  height: 44px; /* Ajusta la altura según sea necesario */
+  background-image: url('/assets/images/customs-icons/pesticide.svg');
+  background-size: cover;
+}
+.spikes{
+  width: 44px; /* Ajusta el ancho según sea necesario */
+  height: 34px; /* Ajusta la altura según sea necesario */
+  background-image: url('/assets/images/customs-icons/spikes.svg');
+  background-size: cover;
+}
+
+.wash {
+  width: 44px; /* Ajusta el ancho según sea necesario */
+  height: 44px; /* Ajusta la altura según sea necesario */
+  background-image: url('/assets/images/customs-icons/wash.svg');
+  background-size: cover;
+}
+
+
+
+
 
 
 /*----------------------------------*\
@@ -885,7 +958,7 @@ article p {
 
 .stats-banner {
   position: relative;
-  height: 380px;
+  height: 580px;
   border-radius: var(--radius-60) 0;
   overflow: hidden;
 }
@@ -902,6 +975,11 @@ article p {
   border-radius: var(--radius-circle);
   animation: pulse 2s ease infinite;
 }
+
+.play-btn.hide {
+  display: none;
+}
+
 
 @keyframes pulse {
   0% { box-shadow: 0 0 0 0 var(--yellow-green); }
@@ -1283,6 +1361,8 @@ article p {
   border-radius: var(--radius-5);
   margin-block: 8px 20px;
   outline: none;
+  max-height: 200px; 
+  resize: vertical;
 }
 
 .footer .btn:is(:hover, :focus-visible) {
@@ -1796,7 +1876,7 @@ article p {
    * STATS
    */
 
-  .stats-banner { height: 500px; }
+  .stats-banner { height: 700px; }
 
 
 
