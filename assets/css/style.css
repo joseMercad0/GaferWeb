@@ -158,6 +158,35 @@
   background-size: cover;
 }
 
+.green-fumigation {
+  width: 34px; /* Ajusta el ancho según sea necesario */
+  height: 34px; /* Ajusta la altura según sea necesario */
+  background-image: url('/assets/images/customs-icons/green-fumigation.svg');
+  background-size: cover;
+}
+
+.protocol {
+  width: 34px; /* Ajusta el ancho según sea necesario */
+  height: 34px; /* Ajusta la altura según sea necesario */
+  background-image: url('/assets/images/customs-icons/protocol.svg');
+  background-size: cover;
+}
+
+.ambient {
+  width: 34px; /* Ajusta el ancho según sea necesario */
+  height: 34px; /* Ajusta la altura según sea necesario */
+  background-image: url('/assets/images/customs-icons/city-svgrepo-com.svg');
+  background-size: cover;
+
+}
+
+.personal{
+  width: 34px; /* Ajusta el ancho según sea necesario */
+  height: 34px; /* Ajusta la altura según sea necesario */
+  background-image: url('/assets/images/customs-icons/personal-information-class-svgrepo-com.svg');
+  background-size: cover;
+
+}
 
 
 
@@ -958,7 +987,7 @@ article p {
 
 .stats-banner {
   position: relative;
-  height: 580px;
+  height: 550px;
   border-radius: var(--radius-60) 0;
   overflow: hidden;
 }
@@ -1525,7 +1554,7 @@ article p {
    * CIRCLE
    */
    .card-circle:hover{
-    height: 970px;
+    height: 870px;
     width: 550px;
     border-radius: 5px;
     box-shadow: 0px 1px 35px 0px rgba(0,0,0,0.3);
@@ -1876,7 +1905,7 @@ article p {
    * STATS
    */
 
-  .stats-banner { height: 700px; }
+  .stats-banner { height: 650px; }
 
 
 
