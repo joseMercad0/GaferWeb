@@ -272,10 +272,17 @@
   text-align: center;
 }
 .rapper .place{
-  color: #fff;
-  font-size: 17px;
-  line-height: 0px;
-  margin: 10px 0;
+  background-color: #9ddf9f; /* Color de fondo */
+  border: none; /* Sin borde */
+  color: white; /* Color del texto */
+  padding: 15px 32px; /* Espaciado interno */
+  text-align: center; /* Alineación del texto */
+  text-decoration: none; /* Sin subrayado */
+  display: inline-block; /* Mostrar como bloque en línea */
+  font-size: 16px; /* Tamaño de la fuente */
+  margin: 4px 2px; /* Margen exterior */
+  cursor: pointer; /* Cursor al pasar el ratón */
+  border-radius: 10px; /* Radio de borde */
 }
 .card-circle{
   color: #fff;
@@ -346,6 +353,27 @@
 .card-circle .icons li a:hover{
   transform: scale(0.9);
 }
+
+/* Estilos adicionales para el botón */
+.place-button {
+  background-color: #9ddf9f; /* Color de fondo */
+  border: none; /* Sin borde */
+  color: white; /* Color del texto */
+  padding: 15px 32px; /* Espaciado interno */
+  text-align: center; /* Alineación del texto */
+  text-decoration: none; /* Sin subrayado */
+  display: inline-block; /* Mostrar como bloque en línea */
+  font-size: 16px; /* Tamaño de la fuente */
+  margin: 4px 2px; /* Margen exterior */
+  cursor: pointer; /* Cursor al pasar el ratón */
+  border-radius: 10px; /* Radio de borde */
+  transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+.place-button:hover {
+  background-color: #82c377; /* Cambia el color de fondo al pasar el ratón */
+}
+
 
 
 /*-----------------------------------*\
@@ -566,6 +594,7 @@ body {
   opacity: 1;
   transform: translate(0);
 }
+
 
 
 /*----------------------------------*\

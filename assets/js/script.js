@@ -138,3 +138,6 @@ document.getElementById('problemaForm').addEventListener('submit', function (eve
       alert('¡Hubo un problema al enviar tu formulario! Por favor, inténtalo de nuevo más tarde.');
     });
 });
+
+
+
